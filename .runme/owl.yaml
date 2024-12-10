@@ -1,0 +1,10 @@
+apiVersion: runme.stateful.com/v1alpha1
+kind: EnvResolution
+spec:
+    type: owl
+    path:
+        transform:
+            expr: key | lower()
+            gcp:
+                auth: ADC
+                project: development-a9775435
