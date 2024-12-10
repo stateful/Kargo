@@ -21,7 +21,7 @@
     "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
     },
-    "postCreateCommand": "devcontainer-links; direnv allow",
+    "postCreateCommand": "devcontainer-links; direnv allow; foyle serve",
     "forwardPorts": [
         1313,
         2222,
@@ -43,7 +43,6 @@
                 "ms-python.python",
                 "redhat.vscode-yaml",
                 "esbenp.prettier-vscode",
-                "oderwat.indent-rainbow",
                 "okteto.kubernetes-context",
                 "ms-vsliveshare.vsliveshare",
                 "ms-azuretools.vscode-docker",
