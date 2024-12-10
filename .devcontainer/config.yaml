@@ -1,0 +1,25 @@
+apiVersion: ""
+kind: ""
+logging:
+    level: info
+    maxDelaySeconds: 30
+server:
+    bindAddress: 0.0.0.0
+    httpPort: 8877
+    grpcPort: 9080
+    httpMaxReadTimeout: 1m0s
+    httpMaxWriteTimeout: 1m0s
+agent:
+    model: claude-3-5-sonnet-20240620
+    modelProvider: anthropic
+    rag:
+        enabled: true
+        maxResults: 3
+    evalMode: false
+openai:
+    apiKeyFile: /home/vscode/.foyle/openai_key_file
+learner:
+    logDirs: []
+    exampleDirs: []
+anthropic:
+    apiKeyFile: /home/vscode/.foyle/antropic_key_file

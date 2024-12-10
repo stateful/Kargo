@@ -42,6 +42,7 @@
                 "max-ss.cyberpunk",
                 "ms-python.python",
                 "redhat.vscode-yaml",
+                "foxundermoon.shell-format",
                 "esbenp.prettier-vscode",
                 "okteto.kubernetes-context",
                 "ms-vsliveshare.vsliveshare",
