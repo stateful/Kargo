@@ -248,6 +248,7 @@
   // "runme.experiments.reporter": false,
   // "runme.server.customAddress": "127.0.0.1:9999",
   // "runme.server.tlsDir": "/tmp/runme/tls",
+  "runme.experiments.aiAutoCell": true,
   "workbench.startupEditor": "none",
   "runme.server.runnerVersion": "v1",
   "runme.experiments.smartEnvStore": true,
