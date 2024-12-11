@@ -4,7 +4,7 @@ runme:
   version: v3
 ---
 
-```sh {"id":"01JESDWV2607M960BGS2F8BZZ2","name":"login-adc","terminalRows":"8"}
+```sh {"id":"01JESDWV2607M960BGS2F8BZZ2","name":"login-adc","terminalRows":"15"}
 gcloud auth application-default login
 ```
 
@@ -16,4 +16,8 @@ rm -f /home/vscode/.foyle/antropic_key_file
 ```sh {"id":"01JESC7JHJ5TZVE8MFHEDS2XKC","name":"set-keys"}
 echo $OPENAI_API_KEY > /home/vscode/.foyle/openai_key_file
 echo $ANTHROPIC_API_KEY > /home/vscode/.foyle/antropic_key_file
+```
+
+```sh {"background":"true","id":"01JESES9M1P39ADCJ6JJ13QXA9","interactive":"true","name":"run-foyle"}
+foyle serve
 ```
