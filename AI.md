@@ -18,6 +18,6 @@ echo $OPENAI_API_KEY > /home/vscode/.foyle/openai_key_file
 echo $ANTHROPIC_API_KEY > /home/vscode/.foyle/antropic_key_file
 ```
 
-```sh {"background":"true","id":"01JESES9M1P39ADCJ6JJ13QXA9","interactive":"true","name":"run-foyle"}
+```sh {"background":"true","id":"01JESES9M1P39ADCJ6JJ13QXA9","interactive":"true","name":"foyle"}
 foyle serve
 ```
